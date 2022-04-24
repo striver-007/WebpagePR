@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin : 0rem 2rem;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    font-style: none;
+}
+header div{
+    margin: 2rem;
+     display: flex;
+     justify-content: space-between; 
+    
+}
+ul{
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.5rem;
+   
+}
+
+a:link , a:visited{
+    color:rgb(15, 232, 48);
+}
+a:hover , a:active{
+    color:red;
+}
+
+.welcomeImg{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+main>div{
+    width: 30%;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+   
+}
